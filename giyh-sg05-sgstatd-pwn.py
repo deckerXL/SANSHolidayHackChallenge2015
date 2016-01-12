@@ -5,7 +5,7 @@
 # Exploit Author: @deckerXL
 # Version: 1.1
 # Tested on: sg05
-# Description: This will perform a buffer overflow attack on the sgstatd (supergnome statd) process running on port 4242/tcp, bypassing a application-level stack canary and ASLR
+# Description: This will perform a buffer overflow attack on the sgstatd (supergnome statd) process running on port 4242/tcp, bypassing an application-level stack canary and ASLR
 
 import sys
 import struct
